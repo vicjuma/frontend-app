@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container" style="max-width: 500px;padding: 20px;background-color: aliceblue;margin-top:10px;border-radius: 5px;">
+    <h1 class="col-md-lg-display-4  text-center">CLIENT FORM</h1>
+    <form role="form">
+      <div class="form-group">
+        <label for="population">Email address:</label>
+        <input type="email" class="form-control" id="population" data-population>
+      </div>
+      <div class="form-group">
+        <label for="elapsedtime">Time Elapsed:</label>
+        <input type="password" class="form-control" id="elapsedtime" data-time-to-elapse>
+      </div>
+      <div class="form-group">
+        <label for="reportedcases">Reported Cases:</label>
+        <input type="password" class="form-control" id="reportedcases" data-reported-cases>
+      </div>
+      <div class="form-group">
+        <label for="totalhospitalbeds">Hospital Beds:</label>
+        <input type="password" class="form-control" id="totalhospitalbeds" data-total-hospital-beds>
+      </div>
+      <div class="form-group">
+        <label for="periodtype">Period Type:</label>
+        <select type="select" class="form-control" id="periodtype" data-period-type>
+          <option value="days">Days</option>
+          <option value="weeks">Weeks</option>
+          <option value="months">Months</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary" data-go-estimate>Submit</button>
+    </form>
+  </div>
+</body>
+</html>
